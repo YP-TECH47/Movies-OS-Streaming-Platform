@@ -18,7 +18,7 @@ class MoviesApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => MovieProvider()),
       ],
       child: MaterialApp(
-        title: 'Cinema OS',
+        title: 'Movies OS',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           brightness: Brightness.dark,
